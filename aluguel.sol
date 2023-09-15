@@ -13,7 +13,7 @@ contract Aluguel {
     bool[] public statusPagamento;
     
     /*
-    Endereco do contrato: 0x51F17004a493D189Be40d06F39fee459f264923F
+    Endereco do contrato: 0x0a11463fde8ffde771c7a4af847403566ebf4fdf
     Nome Locador...: Valerio
     Nome Locatario.: Gustavo
     */
