@@ -6,7 +6,7 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 */
 
 /*
-Endereço do Contrato: 0x51F17004a493D189Be40d06F39fee459f264923F
+Endereço do Contrato: 0x23e3e337f7300Fd2787309818256611b88a556cf
 */
 
 pragma solidity 0.8.19;
@@ -168,8 +168,8 @@ contract USDC is IERC20Metadata, Owned {
     }    
 
     constructor() {
-        myName = "BRDC Cagnin ";
-        mySymbol = "BRDC@Cagnin";
+        myName = "BRDC Gustavo ";
+        mySymbol = "BRDC@Gustavo";
         myDecimals = 2;
         mint(msg.sender, (1000000000 * (10 ** myDecimals)));
     }
